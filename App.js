@@ -30,7 +30,7 @@ export default function App({ skipLoadingScreen }) {
   const client = new ApolloClient({
     uri: 'https://api.github.com/graphql',
     headers: {
-      authorization: `Bearer 8c2843e974d9d36199ad18a749cf12cb1d651da4`
+      authorization: 'your_git_hub_authorization'
     }
   });
 
